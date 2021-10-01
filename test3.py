@@ -33,8 +33,6 @@ def edit_student_infor():
     print("Enter the id student which you want to change: ")
     id = input()
     student = find_student(id)
-    print(student[2])
-    print(student[3])
     print(student[1])
     if (student != False):
         print("Enter student name: ")
@@ -52,7 +50,7 @@ def delete_student():
     '''find the id student and delete student information'''
     print("Enter the student id which you want to delete: ")
     global student_List
-    id = input
+    id = input()
     student = find_student(id)
     if (student == False):
         print("ID can not found. Please try again!")
