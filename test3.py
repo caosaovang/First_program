@@ -39,8 +39,6 @@ def edit_student_infor():
         name = input()
         student[1]['name'] = name
         student_List[student[0]] = student[1]
-        print(student[2])
-        print(student[3])
     else:
         print("ID can not found. Please try again!")
         id = input("Enter id: ")
